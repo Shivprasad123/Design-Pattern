@@ -10,7 +10,7 @@ public class ObserverSample  implements IDesignPattern {
 
         amazonNotification.subscribe(new SMSNotify("7204762966"));
         amazonNotification.subscribe(new SMSNotify("9104762966"));
-        amazonNotification.subscribe(new EmailNotify("shivaprasad.n@zee.com"));
+        amazonNotification.subscribe(new EmailNotify("shivprasadn123@gmail.com"));
 
         amazonNotification.itemAdded();
     }
